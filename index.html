@@ -4,118 +4,121 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="main.css" />
   <title>Portfolio</title>
 </head>
 <body>
-  <header>
-    <a href="#">Todd Hancock</a>
+  <header class="group">
+    <a href="#" class="brand">Todd Hancock</a>
 
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">Home</a></li><!--
+        --><li><a href="#projects">Projects</a></li><!--
+        --><li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <h1>Todd Hancock</h1>
-    <h2>Full-stack developer</h2>
-  </section>
+  <div class="container">
+    <section class="hero">
+      <div>
+        <h1>Todd Hancock</h1>
+        <h2>Full-stack developer</h2>
+      </div>
+    </section>
 
-  <section id="projects">
-    <a href="http://codepen.io/thancock20/full/epQpYp" target="_blank">
-      <div class="project-item">
-        <h2>Simple Calculator</h2>
-        <img src="https://lh3.googleusercontent.com/-_FUhiPKdhxg/VmEo0eQtCDI/AAAAAAAAEYU/dAxbgtqeOJw/s800-Ic42/Simple%252520Calculator%252520002.png" />
-        <p>
-          A simple javascript calculator with parentheses and a running total on a second line.
-        </p>
-      </div>
-    </a>
-    <a href="http://codepen.io/thancock20/full/zvQNVV" target="_blank">
-      <div class="project-item">
-        <h2>Wikipedia Viewer</h2>
-        <img src="https://lh3.googleusercontent.com/-ugVzYu2x3qg/VmCQyh3UlaI/AAAAAAAAEX8/VQ3a9RZ24_0/s800-Ic42/Wikipedia%252520Viewer.png" />
-        <p>
-          Instant Wikipedia search engine that displays findings as the user types.
-        </p>
-      </div>
-    </a>
-    <a href="http://codepen.io/thancock20/full/meZNKm/" target="_blank">
-      <div class="project-item">
-        <h2>Tic Tac Toe</h2>
-        <img src="https://lh3.googleusercontent.com/-QWF2sY5i6zQ/VmEvuYQABoI/AAAAAAAAEZc/8Mg2-YS6ewI/s800-Ic42/Screenshot%252520-%25252012_4_2015%252520%25252C%25252012_12_34%252520AM.png" />
-        <p>
-          A Tic Tac Toe game. The computer is smart enough to never lose: only win or draw.
-        </p>
-      </div>
-    </a>
-    <a href="http://codepen.io/thancock20/full/zrxEJg/" target="_blank">
-      <div class="project-item">
-        <h2>Markdown Previewer</h2>
-        <img src="https://lh3.googleusercontent.com/-n2im0P6FLIY/Vw09zJEbY3I/AAAAAAAAEcY/PxBkPLQUHmwV59amTht6h62M6ShA7ltsgCCo/s800-Ic42/1%2BMarkdown%2BPreviewer.png" />
-        <p>
-          Type Markdown in the left pane, and see the preview in the right pane.
-        </p>
-      </div>
-    </a>
-    <a href="http://codepen.io/thancock20/full/mVmJVJ/" target="_blank">
-      <div class="project-item">
-        <h2>Recipe Box</h2>
-        <img src="https://lh3.googleusercontent.com/-qurBr-l_83I/Vw1AhrFrOXI/AAAAAAAAEcw/-1FErvJMUa8Bz5f_a310GpOkib4SXYXTACCo/s800-Ic42/3%2BRecipe%2BBox.png" />
-        <p>
-          Recipes can be added, edited, or deleted. They are saved in the browsers local storage.
-        </p>
-      </div>
-    </a>
-    <a href="http://codepen.io/thancock20/full/jWpRzE/" target="_blank">
-      <div class="project-item">
-        <h2>Caverns of Reakt</h2>
-        <img src="https://lh3.googleusercontent.com/-mdTSnbheBZs/Vw09zzf2hbI/AAAAAAAAEcg/umjd1vpXUbADOy8dt1RJcsS1hXpFUzt7wCCo/s800-Ic42/5%2BCaverns%2Bof%2BReakt.png" />
-        <p>
-          A roguelike game. Defeat the dragon on Level 5 to win. But be careful, there are no extra lives to be had.
-        </p>
-      </div>
-    </a>
-    <a href="http://codepen.io/thancock20/full/zrXepX/" target="_blank">
-      <div class="project-item">
-        <h2>Gross Domestic Product, USA</h2>
-        <img src="https://lh3.googleusercontent.com/-aSH7Ns6rJrQ/Vw1CAd_BF1I/AAAAAAAAEdY/vwMbRBlkokMrqujJZDKgU-pHgtRb6q2HgCCo/s800-Ic42/2%2BGross%2BDomestic%2BProduct.png" />
-        <p>
-          A bar chart of the USA's GDP by month, Hover over a bar for more information.
-        </p>
-      </div>
-    </a>
-    <a href="http://codepen.io/thancock20/full/Rawqjw/" target="_blank">
-      <div class="project-item">
-        <h2>Global Temperature</h2>
-        <img src="https://lh3.googleusercontent.com/-K6WH9ZOGz5Q/Vw1CAg-NmuI/AAAAAAAAEdg/uvpR3uXLoYYkNobgpURyUik0NpzCkL60QCCo/s800-Ic42/4%2BHeat%2BMap.png" />
-        <p>
-          A heat map. Visualizes the global land-surface temperature by month. Hover over a cell for more information.
-        </p>
-      </div>
-    </a>
-    <a href="https://sh-url.herokuapp.com/" target="_blank">
-      <div class="project-item">
-        <h2>URL Shortener</h2>
-        <img src="https://lh3.googleusercontent.com/-5W2DbBrBdIk/Vw1Ga9zbE0I/AAAAAAAAEeI/Aer2Atkkn38vX_1fkjBOQS-ZLZlTB7SigCCo/s800-Ic42/3%2BURL%2BShortener.png" />
-        <p>
-          Similar to how bit.ly functions
-        </p>
-      </div>
-    </a>
-  </section>
+    <section id="projects" class="projects">
+      <a href="http://codepen.io/thancock20/full/epQpYp" target="_blank">
+        <div class="project-item">
+          <h3>Simple Calculator</h3>
+          <img src="https://lh3.googleusercontent.com/-_FUhiPKdhxg/VmEo0eQtCDI/AAAAAAAAEYU/dAxbgtqeOJw/s800-Ic42/Simple%252520Calculator%252520002.png" />
+          <p>
+            A simple javascript calculator with parentheses and a running total on a second line.
+          </p>
+        </div>
+      </a>
+      <a href="http://codepen.io/thancock20/full/zvQNVV" target="_blank">
+        <div class="project-item">
+          <h3>Wikipedia Viewer</h2>
+          <img src="https://lh3.googleusercontent.com/-ugVzYu2x3qg/VmCQyh3UlaI/AAAAAAAAEX8/VQ3a9RZ24_0/s800-Ic42/Wikipedia%252520Viewer.png" />
+          <p>
+            Instant Wikipedia search engine that displays findings as the user types.
+          </p>
+        </div>
+      </a>
+      <a href="http://codepen.io/thancock20/full/meZNKm/" target="_blank">
+        <div class="project-item">
+          <h3>Tic Tac Toe</h2>
+          <img src="https://lh3.googleusercontent.com/-QWF2sY5i6zQ/VmEvuYQABoI/AAAAAAAAEZc/8Mg2-YS6ewI/s800-Ic42/Screenshot%252520-%25252012_4_2015%252520%25252C%25252012_12_34%252520AM.png" />
+          <p>
+            A Tic Tac Toe game. The computer is smart enough to never lose: only win or draw.
+          </p>
+        </div>
+      </a>
+      <a href="http://codepen.io/thancock20/full/zrxEJg/" target="_blank">
+        <div class="project-item">
+          <h3>Markdown Previewer</h2>
+          <img src="https://lh3.googleusercontent.com/-n2im0P6FLIY/Vw09zJEbY3I/AAAAAAAAEcY/PxBkPLQUHmwV59amTht6h62M6ShA7ltsgCCo/s800-Ic42/1%2BMarkdown%2BPreviewer.png" />
+          <p>
+            Type Markdown in the left pane, and see the preview in the right pane.
+          </p>
+        </div>
+      </a>
+      <a href="http://codepen.io/thancock20/full/mVmJVJ/" target="_blank">
+        <div class="project-item">
+          <h3>Recipe Box</h2>
+          <img src="https://lh3.googleusercontent.com/-qurBr-l_83I/Vw1AhrFrOXI/AAAAAAAAEcw/-1FErvJMUa8Bz5f_a310GpOkib4SXYXTACCo/s800-Ic42/3%2BRecipe%2BBox.png" />
+          <p>
+            Recipes can be added, edited, or deleted. They are saved in the browsers local storage.
+          </p>
+        </div>
+      </a>
+      <a href="http://codepen.io/thancock20/full/jWpRzE/" target="_blank">
+        <div class="project-item">
+          <h3>Caverns of Reakt</h2>
+          <img src="https://lh3.googleusercontent.com/-mdTSnbheBZs/Vw09zzf2hbI/AAAAAAAAEcg/umjd1vpXUbADOy8dt1RJcsS1hXpFUzt7wCCo/s800-Ic42/5%2BCaverns%2Bof%2BReakt.png" />
+          <p>
+            A roguelike game. Defeat the dragon on Level 5 to win. But be careful, there are no extra lives to be had.
+          </p>
+        </div>
+      </a>
+      <a href="http://codepen.io/thancock20/full/zrXepX/" target="_blank">
+        <div class="project-item">
+          <h3>Gross Domestic Product, USA</h2>
+          <img src="https://lh3.googleusercontent.com/-aSH7Ns6rJrQ/Vw1CAd_BF1I/AAAAAAAAEdY/vwMbRBlkokMrqujJZDKgU-pHgtRb6q2HgCCo/s800-Ic42/2%2BGross%2BDomestic%2BProduct.png" />
+          <p>
+            A bar chart of the USA's GDP by month, Hover over a bar for more information.
+          </p>
+        </div>
+      </a>
+      <a href="http://codepen.io/thancock20/full/Rawqjw/" target="_blank">
+        <div class="project-item">
+          <h3>Global Temperature</h2>
+          <img src="https://lh3.googleusercontent.com/-K6WH9ZOGz5Q/Vw1CAg-NmuI/AAAAAAAAEdg/uvpR3uXLoYYkNobgpURyUik0NpzCkL60QCCo/s800-Ic42/4%2BHeat%2BMap.png" />
+          <p>
+            A heat map. Visualizes the global land-surface temperature by month. Hover over a cell for more information.
+          </p>
+        </div>
+      </a>
+      <a href="https://sh-url.herokuapp.com/" target="_blank">
+        <div class="project-item">
+          <h3>URL Shortener</h2>
+          <img src="https://lh3.googleusercontent.com/-5W2DbBrBdIk/Vw1Ga9zbE0I/AAAAAAAAEeI/Aer2Atkkn38vX_1fkjBOQS-ZLZlTB7SigCCo/s800-Ic42/3%2BURL%2BShortener.png" />
+          <p>
+            Similar to how bit.ly functions
+          </p>
+        </div>
+      </a>
+    </section>
 
-  <section id="contact">
-    <ul>
-      <li><a href="https://twitter.com/thancock20" target="_blank" class="btn btn-primary"><i class="fa fa-twitter fa-lg"></i> Twitter</a></li>
-      <li><a href="https://github.com/thancock20" target="_blank" class="btn btn-primary"><i class="fa fa-github fa-lg"></i> GitHub</a></li>
-      <li><a href="https://www.linkedin.com/pub/todd-hancock/109/24a/8a4" target="_blank" class="btn btn-primary"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
-      <li><a href="http://www.freecodecamp.com/thancock20" target="_blank" class="btn btn-primary"><i class="fa fa-free-code-camp fa-lg"></i> freeCodeCamp</a></li>
-    </ul>
-  </section>
+    <section id="contact" class="contact">
+      <div class="contact-link"><a href="https://twitter.com/thancock20" target="_blank"><i class="fa fa-twitter fa-lg"></i> Twitter</a></div>
+      <div class="contact-link"><a href="https://github.com/thancock20" target="_blank"><i class="fa fa-github fa-lg"></i> GitHub</a></div>
+      <div class="contact-link"><a href="https://www.linkedin.com/pub/todd-hancock/109/24a/8a4" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></div>
+      <div class="contact-link"><a href="http://www.freecodecamp.com/thancock20" target="_blank"><i class="fa fa-free-code-camp fa-lg"></i> freeCodeCamp</a></div>
+    </section>
+  </div>
 </body>
 </html>

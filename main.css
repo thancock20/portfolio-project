@@ -46,3 +46,163 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Custom Styles */
+
+body {
+  background: #F8F8F8;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #3498DB;
+}
+
+a:hover {
+  color: #FF5B1F;
+}
+
+img {
+  max-width: 90%;
+  margin: 10px auto;
+}
+
+/* Grid */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+/* Clearfix */
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h1, h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  height: 35px;
+  width: 100%;
+  padding-top: 10px;
+  color: white;
+  background: #3498DB;
+}
+
+header a {
+  color: white;
+}
+
+header a:hover {
+  color: white;
+}
+
+.brand {
+  float: left;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+nav {
+  float: right;
+  text-align: right;
+}
+
+nav li {
+  display: inline-block;
+  width: 75px;
+  margin: 0 10px;
+  vertical-align: top;
+  text-align: center;
+}
+
+nav li:first-child {
+  display: none;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+@media all and (min-width: 420px) {
+  nav li:first-child {
+    display:inline-block;
+  }
+}
+
+/* Hero */
+
+.hero {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Projects */
+
+.projects {
+  padding-top: 40px;
+}
+
+.project-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #3498DB;
+  border-radius: 1%;
+  text-align: center;
+}
+
+.project-item:hover {
+  border-color: #FF5B1F;
+}
+
+/* Contact */
+
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-link {
+  font-size: 1.5em;
+  /*width: 100%;*/
+  text-align: left;
+  padding: 20px 0;
+}
